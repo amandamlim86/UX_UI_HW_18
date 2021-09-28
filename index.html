@@ -11,9 +11,13 @@
 </head>
 
 <body>
+  <div class="mainContent">
+
+<!--Navigation Setion-->
+
   <nav id="navBar">
       <div class="logo">
-        <img src=".\IMAGES\logo.png" alt="logo" class="inline-block">
+        <img src=".\IMAGES\logo.png" alt="logo" class="inline-block logoImg">
       </div>
       <div class="navigation">
         <ul>
@@ -33,6 +37,7 @@
       </div>
   </nav>
 
+  <!--Hero Image Section-->
 
     <section class="heroimg">
       <div class="content">
@@ -43,25 +48,86 @@
       </div>
     </section>
 
-      <footer>
-        <ul>
-          <li class="inline-block">
-            <a href="">ABOUT</a>
-          </li>
-          <li class="inline-block">
-            <a href="">WORK</a>
-          </li>
-          <li class="inline-block">
-            <a href="">CONTACT</a>
-          </li>
-          <li class="inline-block">
-            <a href="">RESUME</a>
-          </li>
-        </ul>
-      </footer>
+<!--My UX Skills section coded using CSS flex--> 
+
+    <section class="mySkills">
+      <h1>My UX Skills</h1>
+      <div class="flexContainer">
+        <div class="skillsCard">
+          <img src=".\IMAGES\User_Research.png" alt="User Research Photo">
+          <h3>Research & Analysis</h3>
+          <p>User Research Plan & Interviewing, Empathy Mapping, Affinity Diagramming, Guerrilla & Usability Testing</p>
+        </div>
+        <div class="skillsCard">
+          <img src=".\IMAGES\Soluton_Design.png" alt="Solution Design Photo">
+          <h3>Solution Design</h3>
+          <p>Proto/User Persona Creation, Wireframing & Prototyping, UX Storytelling, User Flows, VIsual Design</p>
+        </div>
+        <div class="skillsCard">
+          <img src=".\IMAGES\Computer_Programs.png" alt="Computer Programs Photo">
+          <h3>Computer Programs & Code</h3>
+          <p>Figma, Miro, InVision, HTML/CSS, Pencil & Paper, Photoshop, Illustrator, InDesign, AutoCAD</p>
+        </div>
+      </div>
+    </section>
 
 
-    
+<!--myWork Section constructed using CSS Grid-->
+
+    <section class="myWork">
+      <h1>My Work</h1>
+      <div class="workGrid">
+        <div class="imageRight1">
+          <img src=".\IMAGES\PC_Image_Main.png">
+        </div>
+        <div class="textLeft1">
+          <h4>Pocket Concierge</h4>
+          <p>An app designed to reduce the amount of tools necessary to plan and research vacation destinations while providing collaborative functions for a travel group.</p>
+          <button>View Project</button>
+        </div>
+        <div class="imageRight2">
+          <img src=".\IMAGES\USDA_Image_Main.png">
+        </div>
+        <div class="textLeft2">
+          <h4>USDA WRD</h4>
+          <p>Government agency website responsive web redesign to provide more efficient navigation for users.</p>
+          <button>View Project</button>
+        </div>
+        <div class="imageRight3">
+          <img src=".\IMAGES\PGK_Image_Main.png">
+        </div>
+        <div class="textLeft3">
+          <h4>Project Giving Kids</h4>
+          <p>Text here for project</p>
+          <button>View Project</button>
+        </div>
+      </div>
+      <div class="projectsButton">
+        <h3>View All Projects</h3>
+      </div> 
+    </section>
+
+<!--Footer Section-->
+
+  <footer>
+    <ul>
+      <li class="inline-block">
+        <a href="">ABOUT</a>
+      </li>
+      <li class="inline-block">
+        <a href="">WORK</a>
+      </li>
+      <li class="inline-block">
+        <a href="">CONTACT</a>
+      </li>
+      <li class="inline-block">
+        <a href="">RESUME</a>
+      </li>
+    </ul>
+  </footer>
+
+</div>
+   
 
 </body>
 </html>
